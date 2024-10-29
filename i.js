@@ -1,5 +1,5 @@
 function sendHp() {
-   $('.kleman').fadeIn();   
+   
    $('.x').fadeIn();
    event.preventDefault();
    $(".lanjutkan").prop("disabled", true);
